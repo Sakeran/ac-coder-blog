@@ -14,6 +14,8 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+
+
 /************************************** 
   Nav Component
 **************************************/
@@ -148,4 +150,13 @@ body {
   font-size: 0.6em;
   color: #4c4c4c;
   letter-spacing: -1px;
+}
+
+
+/************************************** 
+  Main Content
+**************************************/
+
+.main {
+  padding: 0 0.5rem;
 }
