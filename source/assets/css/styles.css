@@ -14,8 +14,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
-
 /************************************** 
   Nav Component
 **************************************/
@@ -152,11 +150,37 @@ body {
   letter-spacing: -1px;
 }
 
-
 /************************************** 
   Main Content
 **************************************/
 
 .main {
   padding: 0 0.5rem;
+}
+
+/************************************** 
+  Footer Component
+**************************************/
+
+.footer {
+  margin-top: 1rem;
+  padding: 1rem 0.5rem 0;
+  padding-top: 1rem;
+
+  font-size: 0.8rem;
+
+  background-image: linear-gradient(
+    to bottom,
+    var(--primary-light) 2px,
+    white 2px
+  );
+  background-size: 96vw;
+  background-repeat: no-repeat;
+  background-position-x: 2vw;
+
+  color: #4c4c4c;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
 }
