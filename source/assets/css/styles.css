@@ -97,25 +97,25 @@ body {
   align-items: center;
   padding: 0.5rem 0;
   padding-left: 1.5rem;
-  background-image: linear-gradient(to right, var(--primary) 100%, transparent);
-  background-repeat: no-repeat;
-  background-position-x: -100vw;
-  transition: all 0.20s ease-out;
+  transition: all 0.2s ease-out;
 }
 
-.nav-content a:hover,
-.nav-content a:focus {
+.nav-content a.active {
+  background-image: linear-gradient(to right, var(--primary) 100%, transparent);
+  background-repeat: no-repeat;
   background-position-x: -20vw;
   color: black;
 }
 
-.nav-content a.active {
-  color: var(--primary-light);
+.nav-content a span,
+.nav-content a span {
+  transition: transform 0.15s ease-in-out;
+  transform: translateX(0);
 }
-
-.nav-content a.active:hover,
-.nav-content a.active:focus {
-  color: black;
+.nav-content a.active span,
+.nav-content a:hover span,
+.nav-content a:focus span {
+  transform: translateX(1rem);
 }
 
 .nav-content a svg {
