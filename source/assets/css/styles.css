@@ -14,10 +14,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Nav Component */
+/************************************** 
+  Nav Component
+**************************************/
 
 .nav {
   position: relative;
+  z-index: 2;
 
   font-family: "Roboto Slab", sans-serif;
   font-weight: bold;
@@ -120,4 +123,29 @@ body {
 
 .nav-content a svg {
   margin-right: 0.5rem;
+}
+
+/************************************** 
+  Header Component
+**************************************/
+
+.header {
+  font-size: 2rem;
+  margin: 2rem 0;
+  margin-left: 0.5rem;
+}
+
+.header .title {
+  font-size: 2rem;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: bold;
+  color: #0a167e;
+}
+
+.header .subtitle {
+  position: relative;
+  top: -0.25rem;
+  font-size: 0.6em;
+  color: #4c4c4c;
+  letter-spacing: -1px;
 }
