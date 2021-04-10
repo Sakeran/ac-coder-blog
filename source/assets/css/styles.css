@@ -5,6 +5,7 @@
 }
 
 :root {
+  --header: #0a167e;
   --primary: #979ee2;
   --primary-light: #ccd1eb;
   --primary-dark: #3c4263;
@@ -12,6 +13,41 @@
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+p {
+  max-width: 70ch;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--header);
+  text-decoration: none;
+  background-image: linear-gradient(
+      to top,
+      transparent 2px,
+      var(--header) 2px,
+      var(--header) 3px,
+      transparent 3px
+    ),
+    linear-gradient(
+      to top,
+      transparent 2px,
+      var(--primary-light) 2px,
+      var(--primary-light) 3px,
+      transparent 3px
+    );
+  background-repeat: no-repeat, repeat;
+  background-size: 0%, 100%;
+  background-position-x: 50%;
+
+  transition: all 0.2s ease;
+}
+
+a:hover,
+a:focus {
+  background-size: 100%, 100%;
 }
 
 /************************************** 
@@ -93,6 +129,7 @@ body {
 }
 
 .nav-content a {
+  background: none;
   color: white;
   text-decoration: none;
 
@@ -139,7 +176,7 @@ body {
   font-size: 2rem;
   font-family: "Roboto Slab", sans-serif;
   font-weight: bold;
-  color: #0a167e;
+  color: var(--header);
 }
 
 .header .subtitle {
@@ -156,6 +193,58 @@ body {
 
 .main {
   padding: 0 0.5rem;
+}
+
+/************************************** 
+  Post Title Component
+**************************************/
+
+.post-title {
+  position: relative;
+  z-index: 0;
+}
+
+.post-title h3 {
+  position: relative;
+  z-index: 1;
+
+  background-color: #67709f;
+  color: white;
+  width: 90%;
+
+  padding: 0.25rem 0.5rem;
+}
+
+.post-title .post-date {
+  position: relative;
+  z-index: 0;
+  width: 90%;
+  max-width: 100%;
+  top: -1.25rem;
+  left: 0.25rem;
+
+  margin: 0;
+  padding: 1.5rem 0.5rem 0.5rem;
+
+  background-color: black;
+  color: white;
+}
+
+/************************************** 
+  Post Summary Component
+**************************************/
+
+.post-summary {
+  max-width: 768px;
+  position: relative;
+  z-index: 0;
+}
+
+.post-summary .post-link {
+  display: block;
+  width: 90%;
+  font-size: 1.25rem;
+  text-align: right;
 }
 
 /************************************** 
@@ -183,4 +272,24 @@ body {
 
 .footer p {
   margin-bottom: 0.5rem;
+}
+
+/************************************** 
+  Index Page Styles
+**************************************/
+
+.index-about {
+  margin: 2rem 0;
+  margin-right: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-style: italic;
+
+  background-image: linear-gradient(to right, var(--header) 0.5rem, transparent 0.5rem);
+  background-color: var(--primary-light);
+}
+
+.view-all-link {
+  font-size: 1.5rem;
+  width: max-content;
+  margin: 2rem auto;
 }

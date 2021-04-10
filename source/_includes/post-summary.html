@@ -1,0 +1,8 @@
+{% assign post = include.post %}
+<div class="post-summary">
+  {% include post-title.html post=post %}
+  <p class="post-excerpt">{{ post.excerpt }}</p>
+  <div class="post-link">
+    <a href="{{ post.url }}">Read Post</a>
+  </div>
+</div>

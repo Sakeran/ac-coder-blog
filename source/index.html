@@ -1,19 +1,15 @@
 ---
 ---
 
-<h2>Index</h2>
-
-<!-- Stub content -->
-
-<p>
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque labore, unde
-  aliquam porro possimus perferendis. Quo deserunt at amet nihil perspiciatis
-  laboriosam omnis, culpa, atque cumque optio perferendis aliquam quam!
+<p class="index-about">
+  <a href="/about">Alexander Morse</a> cupiditate, eum atque ipsa animi voluptate illum sapiente,
+  tempore quia temporibus architecto aspernatur neque minus quas eaque vel ullam
+  nam et.
 </p>
 
-<p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, corrupti illum
-  fugit non quo expedita voluptates blanditiis omnis laudantium quis quidem
-  perspiciatis harum voluptatem adipisci animi! Eum doloribus excepturi
-  sapiente.
-</p>
+{% assign first_post = site.posts | first %} {% include post-summary.html
+post=first_post%}
+
+<div class="view-all-link">
+  <a href="/blog">View All Posts</a>
+</div>
