@@ -66,8 +66,9 @@
         >
       </li>
       <li>
+        
         <a href="/blog"
-          {% if page.url == "/blog/"%}class="active"{% endif %}
+          {% if page.url == "/blog/" or page.collection == "posts" %}class="active"{% endif %}
           ><svg
             width="1.5em"
             viewBox="-2 -3 16 16"
