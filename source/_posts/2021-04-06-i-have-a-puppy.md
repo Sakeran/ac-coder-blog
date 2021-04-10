@@ -1,5 +1,6 @@
 ---
 title: I Have A Puppy
+category: life
 ---
 
 Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam suscipit, erat sit amet varius auctor, lectus urna tincidunt nisl, eu vehicula lorem justo id ipsum. Nullam vel lectus non nibh gravida consectetur. Nam vel vestibulum ex, vel iaculis tellus. Nulla pharetra nec tortor non facilisis. Aliquam malesuada libero vel massa faucibus gravida. Praesent metus est, tempor vitae dapibus non, dictum scelerisque mauris. Vestibulum luctus enim quis dui blandit ullamcorper. Fusce feugiat lobortis ante rutrum tempor. Etiam quis tortor dignissim, ultricies dui vitae, condimentum quam. Pellentesque luctus maximus commodo. Vivamus neque mi, ultrices a porta at, luctus et risus.

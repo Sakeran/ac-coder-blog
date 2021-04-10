@@ -1,5 +1,6 @@
 ---
 title: 36 Text Editor Hacks You Will Never Use
+category: coding
 ---
 
 Maecenas sit amet diam augue. Donec accumsan ex et cursus porta. Donec nec elit pellentesque, fermentum nunc quis, tempor nulla. Duis sit amet orci sodales, lacinia nibh eget, varius risus. Nam semper urna sem, quis condimentum augue pretium non. Fusce vehicula commodo elit, ultricies semper enim condimentum sed. Praesent egestas porttitor ante nec egestas. Ut scelerisque risus nec tincidunt consequat. Nunc nec turpis purus. In at magna purus.

@@ -1,5 +1,6 @@
 ---
 title: My Puppy Ate My Code
+category: life
 ---
 
 Integer vel semper ex. Ut bibendum maximus mi, id maximus risus lobortis id. Nulla semper id nulla in egestas. Morbi ut enim arcu. Sed malesuada tellus vitae porttitor suscipit. Donec eget erat vitae massa tempus interdum nec quis libero. Aenean dictum metus ut massa molestie, vestibulum consectetur metus sollicitudin. Nulla euismod elementum efficitur. Mauris eu finibus justo. Donec quis augue in lectus blandit lacinia at in sapien. Nam tincidunt dolor at feugiat aliquam. Pellentesque efficitur tellus ullamcorper libero tempor volutpat. Suspendisse placerat augue luctus sollicitudin facilisis. Nunc ligula turpis, condimentum aliquam libero ac, luctus ullamcorper sem. Praesent ipsum nibh, blandit in luctus et, scelerisque nec leo. Aliquam eu volutpat nunc, id ullamcorper metus.

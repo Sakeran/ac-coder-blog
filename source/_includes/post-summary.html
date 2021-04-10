@@ -1,5 +1,5 @@
 {% assign post = include.post %}
-<div class="post-summary">
+<div class="post-summary" data-post-category="{{post.category}}">
   {% include post-title.html post=post %}
   <p class="post-excerpt">{{ post.excerpt }}</p>
   <div class="post-link">

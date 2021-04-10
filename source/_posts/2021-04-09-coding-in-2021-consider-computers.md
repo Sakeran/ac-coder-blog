@@ -1,5 +1,6 @@
 ---
 title: Coding in 2021 - Consider Using a Computer
+category: coding
 ---
 
 Nam id mauris dui. Quisque imperdiet molestie nunc, vel condimentum purus vulputate ut. Curabitur vitae rutrum purus. Suspendisse potenti. Ut a vestibulum purus. Maecenas sit amet ante vel urna sollicitudin vestibulum. Vestibulum fringilla quis quam et tincidunt. Proin blandit mollis ligula, eget vulputate dui porttitor at. Sed pretium sapien in iaculis ultrices. Nulla vel est tellus. Sed egestas ante justo, quis vestibulum leo commodo eget. Nulla tempus, ligula ut dapibus iaculis, felis massa accumsan lorem, nec fringilla nibh libero eget felis. Fusce sed rutrum lacus. Proin faucibus neque ut dui ultrices blandit. Morbi feugiat nulla sed dignissim vulputate. Nunc ipsum quam, tincidunt nec metus ac, semper pulvinar urna.

@@ -1,5 +1,6 @@
 ---
 title: Strong Opinions About Array Indices
+category: coding
 ---
 
 Sed vehicula, ipsum a sagittis vestibulum, velit elit pulvinar lacus, sit amet rhoncus massa dui sit amet arcu. Aenean porta purus justo, in dictum nunc vehicula non. Donec finibus, dui vitae cursus luctus, velit dui congue dolor, eu ornare risus erat et lorem. Nullam sem dui, bibendum id lacus sed, iaculis aliquet leo. Maecenas mollis efficitur rhoncus. Integer at tellus hendrerit, tincidunt diam nec, venenatis justo. Phasellus eget risus quis purus semper commodo vel et erat. Suspendisse vitae erat ut massa placerat semper. In ut vestibulum dui. Maecenas bibendum fermentum lorem et fringilla. Curabitur at finibus neque. Aliquam id sem lacus. Donec ac neque in odio euismod semper et at libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent laoreet ipsum ut ante convallis, id semper ipsum malesuada. Fusce efficitur fermentum aliquam.

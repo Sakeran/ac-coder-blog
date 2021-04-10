@@ -1,5 +1,6 @@
 ---
 title: Dog-Friendly SEO
+category: coding
 ---
 
 Suspendisse iaculis metus non dui pulvinar condimentum. Nam eu risus non nisl feugiat euismod. Quisque ac eros lorem. Morbi at lacinia felis, tincidunt mollis nulla. Nulla est magna, lobortis eu iaculis ac, aliquet vitae metus. Ut efficitur tincidunt viverra. Sed et tempus ex. Nulla nec sollicitudin sem, quis porta lectus. Vivamus ac magna mauris. Suspendisse cursus, est in consequat mollis, quam nisl sagittis felis, ac viverra neque odio et mi. Proin ex justo, faucibus quis arcu vel, hendrerit scelerisque neque. Maecenas aliquam dictum ligula in porta. Etiam eu auctor nisi. Praesent suscipit lectus et dui mollis ornare. Pellentesque aliquet mauris eget velit interdum, non tincidunt enim blandit.

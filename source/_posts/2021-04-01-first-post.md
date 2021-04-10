@@ -1,5 +1,6 @@
 ---
 title: First Post
+category: news
 ---
 
 Curabitur molestie, dolor vel hendrerit sodales, ligula tortor convallis lorem, a tincidunt arcu justo et elit. Vivamus nunc neque, porta id orci a, posuere sodales dolor. In quam arcu, mollis quis metus vel, dignissim cursus enim. Donec non tincidunt lectus. Mauris a lacinia dui. Sed venenatis mauris non massa rhoncus placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam pellentesque volutpat risus et pharetra. Suspendisse ut diam risus. Sed et sem ipsum. Aliquam tortor nulla, sagittis vitae tempus eget, fermentum in enim.

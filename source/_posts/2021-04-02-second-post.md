@@ -1,5 +1,6 @@
 ---
 title: Second Post
+category: news
 ---
 
 Donec mi mauris, mollis ac nulla et, mollis tempor leo. Phasellus purus neque, aliquet eu vestibulum et, euismod et ipsum. Maecenas augue massa, fringilla ut mi sed, tempor tincidunt erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi sed arcu rhoncus, venenatis ante id, consequat augue. Nulla pellentesque eleifend ante, eget volutpat ante tincidunt eu. Sed varius ac leo sit amet gravida. Curabitur tempus sagittis nunc a elementum. Aliquam quis libero nec nisi faucibus ultrices.

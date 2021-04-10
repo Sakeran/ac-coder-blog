@@ -2,6 +2,18 @@
 title: Blog
 ---
 
-<h2>Posts</h2>
+<div class="blog-category-select">
+  <label for="category_select">Category: </label>
+  <div class="select">
+    <select name="category_select" id="category_select">
+      <option value="all">All</option>
+      {% for cat in site.categories %}
+      <option value="{{ cat[0] }}">{{cat[0] | capitalize }}</option>
+      {% endfor %}
+    </select>
+    <span class="focus"></span>
+  </div>
+</div>
 
-
+{% for post in site.posts %} {% include post-summary.html post=post %} {%
+endfor%}

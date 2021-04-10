@@ -1,5 +1,6 @@
 ---
 title: Carrier Pidgeons, The New Docker?
+category: coding
 ---
 
 Nam pulvinar tincidunt massa, nec scelerisque enim porta a. Aliquam venenatis risus nec nulla consequat consequat. Sed ut magna cursus, porttitor metus eget, laoreet sapien. Fusce nec aliquam mauris. Pellentesque auctor rhoncus tempus. Duis mattis dui eget nibh condimentum, eu venenatis tortor vehicula. Nulla non mi bibendum, interdum est et, cursus est. Praesent ornare odio at est mattis efficitur. Vivamus mattis, diam id dignissim rhoncus, sapien mi condimentum lacus, quis viverra sem est ut metus. Proin ornare, lacus id tempus mollis, ipsum magna laoreet augue, eget finibus eros eros suscipit nibh. Morbi lobortis viverra velit, quis convallis nisl porta vel.

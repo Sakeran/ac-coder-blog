@@ -1,5 +1,6 @@
 ---
 title: Coding Is Like Fishing Probably
+category: coding
 ---
 
 Morbi ac tellus pellentesque, porta augue vitae, feugiat lorem. Nullam cursus pellentesque odio vitae tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean gravida fringilla justo iaculis mattis. Ut ut sagittis urna. Pellentesque posuere vitae nisi in bibendum. Fusce dignissim tellus id mauris tempor, ut posuere purus vestibulum. Mauris urna neque, tempor non accumsan vel, volutpat commodo nisi. Morbi consectetur sollicitudin felis sit amet lobortis.
