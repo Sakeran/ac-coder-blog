@@ -589,4 +589,11 @@ select,
   .view-all-link {
     margin: 0;
   }
+
+  .index-about {
+    margin-top: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 90%;
+  }
 }
