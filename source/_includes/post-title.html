@@ -1,6 +1,8 @@
 {% assign post = include.post %}
+{% assign level = include.header_level | default: 3 %}
+
 <div class="post-title">
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <h{{level}} class="post-header"><a href="{{ post.url }}">{{ post.title }}</a></h{{level}}>
   <p class="post-date">
     Posted on {{ post.date | date_to_long_string: "ordinal" }}
   </p>

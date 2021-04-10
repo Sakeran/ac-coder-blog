@@ -319,7 +319,7 @@ select,
   z-index: 0;
 }
 
-.post-title h3 {
+.post-title .post-header {
   position: relative;
   z-index: 1;
 
@@ -330,7 +330,7 @@ select,
   padding: 0.25rem 0.5rem;
 }
 
-.post-title h3 a {
+.post-title .post-header a {
   color: white;
   background: none;
 }
