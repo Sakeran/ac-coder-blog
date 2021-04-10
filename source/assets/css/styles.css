@@ -372,6 +372,7 @@ select,
 .post-summary .post-link {
   display: block;
   width: 90%;
+  max-width: 70ch;
   font-size: 1.25rem;
   text-align: right;
 }
@@ -433,4 +434,133 @@ select,
 
 .hidden-post {
   display: none;
+}
+
+/**************************************
+  Desktop View
+***************************************/
+
+@media screen and (min-width: 950px) {
+  .layout {
+    display: grid;
+
+    grid-template-areas:
+      "sidebar header"
+      "sidebar content"
+      "sidebar footer";
+    grid-template-rows: min-content 1fr;
+    grid-template-columns: min(30%, 450px) 1fr;
+    gap: 2rem;
+
+    min-height: 100vh;
+  }
+
+  /************************************** 
+    Nav Component
+  **************************************/
+
+  body {
+    font-size: 1.25rem;
+  }
+
+  .nav {
+    display: block;
+    grid-area: sidebar;
+
+    background-color: black;
+  }
+
+  .nav-toggle,
+  .nav-toggle-checkbox {
+    display: none;
+  }
+
+  .nav-content {
+    display: block;
+
+    position: static;
+    min-height: auto;
+
+    background: none;
+    transform: none;
+  }
+
+  .nav-content .logo {
+    width: min(256px, 100%);
+  }
+
+  .nav-content .logo img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-content a.active {
+    background-position-x: min(-6vw, -50px);
+  }
+
+  /************************************** 
+    Header Component
+  **************************************/
+
+  .header {
+    grid-area: header;
+
+    font-size: calc(2rem + 3vw);
+  }
+
+  .header .title {
+    font-size: 1em;
+  }
+
+  .header .subtitle {
+    font-size: 0.35em;
+    top: -0.6rem;
+    left: 0.25rem;
+  }
+
+  /************************************** 
+    Main Content
+  **************************************/
+
+  .main {
+    grid-area: content;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+
+  /************************************** 
+    Post Summary Component
+  **************************************/
+
+  .post-summary {
+    max-width: 1200px;
+  }
+
+  /************************************** 
+    Footer Component
+  **************************************/
+
+  .footer {
+    background-size: unset;
+    background-position-x: -2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer p {
+    max-width: unset;
+  }
+
+  /************************************** 
+    Index Page Styles
+  **************************************/
+
+  .view-all-link {
+    margin: 0;
+  }
 }
